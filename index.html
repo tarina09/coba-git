@@ -1,1 +1,63 @@
-<h1>Wellcome</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Apa Itu GitHub?</h2>
+    <p>GitHub adalah platform kolaborasi pengembangan perangkat lunak yang sangat populer.Ini menyediakan berbagai fitur untuk mengelola proyek perangkat lunak,berkolaborasi dengan orang lain,dan melacak perubahan dalam kode sumber.</p>
+    <h3>Langkah-langkah membuat akun digithub:</h3>
+    <ul>
+        <li>Buka https://github.com dibrowser anda,lalu pilih Sign Up/Daftar</li>
+        <li>Isi Informasi Akun :</li>
+        <ul>
+            <li>Nama pengguna(username): Pilih nama pengguna yang unik yang akan digunakan untuk mengidentifikasi anda diGitHub.Pastikan nama pengguna yang anda pilih tersedia.</li>
+            <li>Alamat Email: Masukkan alamat email aktif yang akan digunakan untuk verifikasi dan komunikasi dari GitHub.</li>
+            <li>Kata Sandi(Password):Buat kata sandi yang kuat untuk melindungi akun anda.Pastikan kata sandi anda cukup aman dengan kombinasi huruf besar,huruf kecil,angka,dan karakter khusus.</li>
+            <li>Verifikasi Kata Sandi:Ketik ulang kata sandi yang sama untuk memastikannya.</li>
+        </ul>
+        <li>Pilih Rencana gratis:</li>
+        <p>GitHub menawarkan rencana gratis yang hebat untuk pengguna individu. Pilih opsi "Free" untuk menggunakan GitHub secara gratis. Jika Anda ingin mengupgrade akun Anda ke rencana berbayar di kemudian hari, Anda masih dapat melakukannya.</p>
+        <li>Verifikasi Captcha:</li>
+        <p>Ikuti instruksi untuk menyelesaikan verifikasi captcha yang mungkin diminta.</p>
+        <li>Klik"Create Account" atau "Buat Akun":</li>
+        <p>Setelah Anda mengisi semua informasi yang diperlukan dan menyelesaikan verifikasi, klik tombol "Create Account" atau "Buat Akun" untuk membuat akun GitHub Anda.</p>
+        <li>Verifikasi Alamat Email:</li>
+        <p>GitHub akan mengirimkan email verifikasi ke alamat email yang Anda masukkan. Buka email tersebut dan ikuti tautan verifikasi yang diberikan untuk mengaktifkan akun Anda.</p>
+        <p>Setelah Anda mengikuti langkah-langkah ini, Anda akan memiliki akun GitHub yang telah dibuat. Anda dapat mulai menggunakan GitHub untuk menyimpan, mengelola, dan berkolaborasi dalam proyek perangkat lunak. Pastikan untuk mengonfigurasi preferensi akun Anda, seperti mengunggah foto profil dan mengatur preferensi keamanan, untuk membuat pengalaman Anda lebih baik.</p>
+    </ul>
+    <h3>Cara Upload Project ke Github:</h3>
+    <ul>
+        <li>Daftar dan buat akun.</li>
+        <li>Buat Repository Baru Setelah masuk ke akun Github,Setelah berhasil masuk ke akun Github Anda, langkah selanjutnya adalah membuat repositori baru untuk proyek Anda. Klik tombol "Repositori Baru" dan lengkapi informasi yang diperlukan seperti nama repositori, deskripsi, dan pilihan privasi. Pilih opsi "Publik" jika Anda ingin membagikan proyek Anda kepada semua orang, atau "Pribadi" jika Anda hanya ingin membagikannya kepada anggota tim tertentu.</li>
+        <li>Setelah repositori baru dibuat, Anda dapat mulai mengunggah proyek Anda. </li>
+            <ol>
+                <li>Buka terminal atau command prompt</li>
+                <li>Masuk ke folder projectmu dengan perintah "cd [nama folder]"</li>
+                <p><img src="image1.png"></p>
+                <li>Inisialisasi Git di folder tersebut dengan perintah "git init"</li>
+                <p><img src="image2.png"></p>
+                <li>Ketik perintah "git status" untuk menampilkan informasi tentang status dari repositori Git lokal anda.Perintah ini nuga akan menampilkan daftar file yang telah anda ubah sejak commit terakhir,file yang telah diedit,ditambahkan,dan dihapus.</li>
+                <p><img src="image3.png"></p>
+                <li>Tambahkan file-file projectmu ke repository dengan perintah "git add . [nama file]"</li>
+                <p><img src="image4.png"></p>
+                <p>Ketik kembali perintah "git status" untuk melihat apakah file berhasil di Upload.Jika berhasil di upload warna dari nama file akan berubah jadi hijau.</p>
+                <p><img src="image5.png"></p>
+                <li>Lakukan commit perubahan dengan perintah "git commit -m [pesan commit]"</li>
+                <p><img src="image6.png"></p>
+                jika ada pesan seperti gambar diatas,ikuti langkah-langkah seperti dibawah,kita akan diminta untuk config user dan email yang telah kita buat sebelumnya.
+                <p><img src="image7.png"></p>
+                <p>Lalu lakukan  commit kembali</p>
+                <p><img src="image8.png"></p>
+                <li>Tambahkan URL repository Github sebagai remote repository dengan perintah "git remote add origin [url repository]"</li>
+                <p><img src="image9.png"></p>
+                <li>Unggah project anda ke repository dengan perintah "git push -u origin master"</li>
+                <p><img src="image10.png"></p>
+                <li>Setelah selesai mengunggah proyek Anda, Anda dapat melihat hasilnya di halaman repositori Github. Semua file dan folder yang telah Anda unggah akan ditampilkan di sana. Selain itu, Anda juga dapat melihat riwayat perubahan dan mengelola file dengan menggunakan fitur-fitur Github seperti pull request, branch, dan lainnya.</li>
+                <p><img src="Image11.1.png"></p>
+            </ol>
+    </ul>
+</body>
+</html>
